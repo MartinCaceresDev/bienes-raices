@@ -1,6 +1,6 @@
 @font-face {
     font-family: Avenir;
-    src: url('/fonts/Avenir-Book.ttf');
+    src: url('../fonts/Avenir-Book.ttf');
 }
 
 /* ESTILOS GENERALES  */
@@ -76,14 +76,14 @@ p {
 }
 
 .hero div:nth-child(1) {
-    background-image: url('img/front1.jpg');
+    background-image: url('../img/front1.jpg');
 }
 .hero div:nth-child(2) {
-    background-image: url('img/front2.jpg');
+    background-image: url('../img/front2.jpg');
     animation-delay: 6s;
 }
 .hero div:nth-child(3) {
-    background-image: url('img/front3.jpg');
+    background-image: url('../img/front3.jpg');
     animation-delay: 12s;
 }
 
@@ -359,7 +359,7 @@ div.first {
 /* PARALLAX */
 
 .row.parallax {
-    background-image: url('img/property5.jpg');
+    background-image: url('../img/property5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -429,14 +429,14 @@ input:focus {
 }
 
 input.usuario {
-    background-image: url("img/user.svg");
+    background-image: url("../img/user.svg");
     background-repeat: no-repeat;
     background-position: 0 7px;
     padding-left: 2em;
 }
 
 input.email {
-    background-image: url("img/mail-bronce.svg");
+    background-image: url("../img/mail-bronce.svg");
     background-repeat: no-repeat;
     background-position: 0 7px;
     padding-left: 2em;
@@ -463,14 +463,14 @@ input[type="checkbox"]{
 }
 
 input[type="checkbox"] + label::before {
-    content: url("img/square.svg");
+    content: url("../img/square.svg");
     position: relative;
     top: 5px;
     right: 5px;
 }
 
 input[type="checkbox"]:checked + label::before {
-    content: url("img/check-square.svg");
+    content: url("../img/check-square.svg");
 }
 
 
@@ -568,7 +568,7 @@ footer .copyright {
 
 .propiedad {
     margin-top: 80px;
-    background-image: url("img/property5.jpg");
+    background-image: url("../img/property5.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
